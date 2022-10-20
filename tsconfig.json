@@ -1,9 +1,13 @@
 {
+  "extends": "@tsconfig/node16/tsconfig.json",
+  "include": [
+    "src/*.ts",
+  ],
+  "exclude": [
+    "node_modules",
+  ],
   "compilerOptions": {
-    "sourceMap": true,
-    "outDir": "dist",
-    "strict": true,
-    "lib": ["esnext"],
-    "esModuleInterop": true
+    "preserveConstEnums": true,
+    "outDir": "dist"
   }
 }
