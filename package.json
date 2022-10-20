@@ -1,0 +1,25 @@
+{
+  "name": "mylesson",
+  "version": "0.0.1",
+  "description": "We use this repo to manage our programing lesson pages",
+  "main": "server.js",
+  "scripts": {
+    "test": "mocha"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/interight-lesson/myLesson.git"
+  },
+  "author": "koji-noguchi",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/interight-lesson/myLesson/issues"
+  },
+  "homepage": "https://github.com/interight-lesson/myLesson#readme",
+  "devDependencies": {
+    "@types/node": "^18.11.2",
+    "prisma": "^4.5.0",
+    "ts-node": "^10.9.1",
+    "typescript": "^4.8.4"
+  }
+}
